@@ -1,4 +1,4 @@
-        const targetArea = document.getElementByID('element');
+        const targetArea = document.getElementByID('element'.eq(1));
         
         targetArea.addEventListener('click', function(event) {
             const x = event.clientX();
