@@ -34,3 +34,7 @@
     color: white;
     transition: 100ms;
 }
+
+.element:nth-child(activePage) {
+    color: white;
+}
